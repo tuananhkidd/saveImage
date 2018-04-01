@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tuananhkid.bai2.activity.ShowImageActivity">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/img_ys"
+        android:padding="16dp"
+        android:layout_weight="3"/>
+    <Gallery
+        android:background="#ccc"
+        android:id="@+id/gal_img"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></Gallery>
+</LinearLayout>
